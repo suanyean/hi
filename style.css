@@ -1,0 +1,33 @@
+body {
+    /* background-color: rgb(108, 175, 175); */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.content {
+    color: white;
+    font-family: sTahoma, Geneva, sans-serif;
+    margin-left: 5em;
+    max-width: 480px;
+    padding: 2em;
+    background-color: rgba(30, 30, 30, 0.8);
+    text-align: left;
+    
+}
+.content h1{
+    color: #ff9999;
+}
+.content h3{
+    color: #ff9999;
+}
+a {
+    color: #78cad3;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+canvas {
+    max-width: windowWidth;
+    max-height: windowHeight;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
